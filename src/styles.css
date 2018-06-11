@@ -1,0 +1,142 @@
+.login-div {
+    max-width: 320px;
+    width: 90%;
+    margin: 0 auto;
+    margin-top: 100px;
+    background-color: rgba(255, 255, 255, 0.90);
+    padding: 40px;
+    border-radius: 4px;
+    color: #505e6c;
+    box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+.login-button {
+    background: #d9ca00;
+    border: none;
+    border-radius: 4px;
+    padding: 11px;
+    box-shadow: none;
+    margin-top: 26px;
+    text-shadow: none;
+    outline: none !important;
+    color: #575655;
+}
+
+.login-button:hover {
+    background: #cebf00;
+}
+
+.cog {
+    margin-bottom: -10px;
+    margin-top: -10px;
+    font-size: 40px;
+    color: #d9ca00;
+    cursor: pointer;
+}
+
+.cog:hover {
+    color: #cebf00;
+}
+
+.logout-div-text {
+    cursor: pointer;
+}
+
+.profile-image {
+    width: 45px;
+    margin-top: -10px;
+    margin-bottom: -10px;
+}
+
+.top-div {
+    background: no-repeat center center url('https://s3-us-west-1.amazonaws.com/bobcat-courses-static/images/uc_merced_72.jpg');
+    filter: blur(5px) brightness(80%);
+    -webkit-filter: blur(5px) brightness(80%);
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    background-size: cover; /* <------ */
+    -webkit-background-size: cover; /* <------ */
+    z-index: -1;
+    transform: scale(1.1);
+    -webkit-transform: scale(1.1);
+}
+
+.scrollable-card::-webkit-scrollbar, .tt-menu::-webkit-scrollbar {
+    width: 5px;
+}
+
+.scrollable-card::-webkit-scrollbar-track, .tt-menu::-webkit-scrollbar-track {
+    background: #f1f1f1;
+    border-radius: 5px;
+}
+
+.scrollable-card::-webkit-scrollbar-thumb, .tt-menu::-webkit-scrollbar-thumb {
+    background: #888;
+    border-radius: 5px;
+}
+
+.scrollable-card::-webkit-scrollbar-thumb:hover, .tt-menu::-webkit-scrollbar-thumb:hover {
+    background: #555;
+    border-radius: 5px;
+}
+
+.section-card-full {
+    background-color: #ffd5bf;
+}
+
+.section-card-space {
+    background-color: #b3ffa9;
+}
+
+.list-group-item {
+    position: relative;
+    /*display: block;*/
+    /*padding: .75rem 1.25rem;*/
+    /*margin-bottom: -1px;*/
+    /*background-color: #ff1000;*/
+    /*border: 1px solid rgba(0, 0, 0, .125);*/
+}
+
+.waitlist-item {
+    position: relative;
+    display: block;
+    padding: .75rem 1.25rem;
+    margin-bottom: -1px;
+    border: 1px solid rgba(0, 0, 0, .125);
+}
+
+.selected-waitlist {
+    background-color: #b8c1ff;
+}
+
+.waitlist-item.full {
+    background-color: #ffd5bf;
+}
+
+.waitlist-item.not-full {
+    background-color: #b3ffa9;
+}
+
+#about_div {
+    background-color: rgba(250, 250, 250, 0.7);
+    padding: 10px 40px 40px 40px;
+    border-radius: 10px;
+    color: #2a3644;
+    box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.1);
+}
+
+.rounded-circle {
+    width: 70%;
+}
+
+.team-member {
+    transition: all .2s ease-in-out;
+    -webkit-transition: all .2s ease-in-out;
+}
+
+.team-member:hover {
+    -webkit-transform: scale(1.15);
+}
