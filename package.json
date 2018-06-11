@@ -8,6 +8,7 @@
     "@fortawesome/react-fontawesome": "^0.0.20",
     "axios": "^0.18.0",
     "bootstrap": "^4.1.1",
+    "gh-pages": "^1.2.0",
     "react": "^16.4.0",
     "react-bootstrap-typeahead": "^3.1.4",
     "react-dom": "^16.4.0",
@@ -16,9 +17,12 @@
     "reactstrap": "^6.1.0"
   },
   "scripts": {
+    "predeploy": "yarn run build",
+    "deploy": "firebase deploy",
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test --env=jsdom",
     "eject": "react-scripts eject"
-  }
+  },
+  "homepage": "https://bobcat-courses-react.firebaseapp.com/"
 }
